@@ -3,5 +3,7 @@
 }
 
 .banner {
-    height: 40vh;
+    margin: 70px 220px;
+    height: calc(100% - 10vh);
+    background-color: #fff5ee;
 }
