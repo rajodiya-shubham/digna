@@ -3,22 +3,24 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { CREATORS, HOME, LICENSE, PRODUCTS, WHY_DIGNA } from "./paths";
 import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
+import ReactLogo from "./logo_footer.svg";
 
 type FooterProps = {};
 
 const Footer: React.FC<FooterProps> = () => {
   return (
-    <Navbar expand="lg">
-      <Container>
+    <Navbar>
+      <Container className="d-flex align-items-center justify-content-between">
         <Link to={HOME} className="navbar-brand text-warning">
-          Digna
+          <img src={ReactLogo} style={{ height: "20px" }} />
         </Link>
+        <p className="text-copyright"> All rights reserved - Digma © 2022</p>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav>
             <div>
-              <a href="https://www.facebook.com/thedigna">
-                <MDBIcon fab icon="facebook-f" />
+              <a href="mailto:contact@thedigna.com">
+                <MDBIcon icon="envelope" />
               </a>
             </div>
             &nbsp;&nbsp;&nbsp;
@@ -50,7 +52,7 @@ const Footer: React.FC<FooterProps> = () => {
                 <MDBIcon fab icon="twitter" />
               </a>
             </div>
-            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
             {/* <MDBBtn
               className="m-1"
               style={{ backgroundColor: "#0082ca" }}
@@ -85,7 +87,7 @@ const Footer: React.FC<FooterProps> = () => {
               
             </MDBBtn> */}
             <div>
-              <a href="#">
+              <a href="https://www.youtube.com/channel/UCeTfCNNj-nMLYm8RReVzioA">
                 <MDBIcon fab icon="youtube" style={{ color: "red" }} />
               </a>
             </div>

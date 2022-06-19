@@ -1,6 +1,4 @@
-import React from "react";
-import { Navbar } from "react-bootstrap";
-import Navigation from "./Navigation";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import AppRoutes from "./AppRoutes";
 

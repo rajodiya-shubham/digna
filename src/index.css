@@ -7,7 +7,133 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.edit-form .form-control {
+  margin: 0 !important;
+}
+
+.custom-control {
+  display: flex;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.text-copyright {
+  vertical-align: bottom !important;
+  margin-bottom: unset;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.mdbInputLabel {
+  font-family: Scada !important;
+  letter-spacing: 0.2em;
+  margin: 8px;
+  text-transform: initial;
+}
+
+.mdbInput {
+  background: white !important;
+  border-radius: 4px !important;
+  border: unset !important;
+  height: 60px !important;
+  left: 440px !important;
+}
+
+.mdbInputLastName {
+  background: white !important;
+  border-radius: 4px !important;
+  border: unset !important;
+  height: 60px !important;
+  left: 440px !important;
+}
+
+.mdbInputTextArea {
+  background: white !important;
+  border-radius: 4px !important;
+  border: unset !important;
+  height: 160px !important;
+  text-transform: initial !important;
+}
+
+.md-form textarea.md-textarea {
+  font-family: Scada !important;
+  letter-spacing: 0.2em !important;
+  margin: 8px !important;
+}
+
+.md-form textarea.md-textarea+label {
+  font-family: Scada !important;
+  letter-spacing: 0.2em;
+  margin: 8px;
+}
+
+.modalBody {
+  background: #F5F5F5;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.chooseFileButton {
+  height: 40px;
+  width: 180px;
+  margin-top: 16px;
+  background: #FF9933 !important;
+  margin-left: 24px !important;
+  margin-top: 16px !important;
+}
+.updateProfileButton{
+  height: 40px;
+  width: 180px;
+  background: #FF9933 !important;
+  margin-left: 120px !important;
+  margin-right: 30px !important;
+
+}
+.cancelButton{
+  height: 40px;
+  width: 180px;
+  background: #999999 !important;
+    margin-right: 30px !important;
+
+}
+.btnLbl{
+  height: 35px;
+width: 120px;
+left: 534px;
+top: 1601px;
+border-radius: nullpx;
+color: white;
+text-transform: initial;
+
+}
+.btnLbl:hover{
+color:white
+
+}
+.updateProfileButton :hover{
+
+  color: white !important;
+
+}
+.bg-saffron {
+  background: #FF9933 !important;
+}
+
+/* .photoUploadIcon {
+  background: #999999;
+} */
+
+#photo-upload {
+  height: 40px;
+    width: 180px;
+    /* margin-left: 8px; */
+    opacity: 0;
+    top: 13px;
+    left: 110px;
+    position: absolute;
 }

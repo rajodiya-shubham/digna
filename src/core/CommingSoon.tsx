@@ -1,14 +1,16 @@
 import React from "react";
 import Footer from "../Footer";
 import Navigation from "../Navigation";
+import EditProfile from "./EditProfile";
 import "./style.css";
 type CommingSoonProps = {};
 
 const CommingSoon: React.FC<CommingSoonProps> = () => {
   return (
-    <div className="mh-100">
+    <div className="d-flex flex-column mh-100">
       <Navigation />
-      <div className="banner d-flex align-items-center justify-content-center">
+      {/* <EditProfile /> */}
+      <div className="banner d-flex align-items-center justify-content-center flex-grow-1">
         <h1 style={{ color: "#FFA500" }}>Coming Soon...</h1>
       </div>
       <Footer />
